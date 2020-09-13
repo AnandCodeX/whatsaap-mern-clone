@@ -6,6 +6,7 @@ import Chat from "./Chat";
 import Sidebar from "./Sidebar";
 import Pusher from "pusher-js";
 import axios from "./axios.js";
+//imports
 
 function App() {
 	const [messages, setMessages] = useState([]);
